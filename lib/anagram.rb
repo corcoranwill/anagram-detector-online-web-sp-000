@@ -11,9 +11,5 @@ class Anagram
   # .sort orders an array of letters in alpha order
   def match(words)
     words.select {|word| word.split("").sort == @word.split("").sort}
-    # if words.select {|word| word.split("").sort == @word.split("").sort} == nil
-    # else
-    #   words.select {|word| word.split("").sort == @word.split("").sort}
-    # end
   end
 end
